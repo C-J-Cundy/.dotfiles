@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("predicting"
+ (filename . "~/Documents/Cambridge/Computer Science/Project/predict_test_full.m")
+ (front-context-string . "\n[nlml dnlm lat]")
+ (rear-context-string . "ed, -100, data);")
+ (position . 3312))
+)
