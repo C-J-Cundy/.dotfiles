@@ -38,11 +38,7 @@
 (when (display-graphic-p) 
   (tool-bar-mode -1)
   (scroll-bar-mode -1)
-  (set-background-color "#292929")
-  (require 'helm-config)
-  (helm-mode 1)
-  (global-set-key (kbd "M-x") 'helm-M-x)
-  (global-set-key (kbd "C-x b") 'helm-mini))
+  (set-background-color "#292929"))
 
 
 
@@ -312,6 +308,11 @@
   (interactive "r")
   (align-regexp start end
                 "\\(\\s-*\\)\\s-" 1 0 t))
+(require 'helm-config)
+(helm-mode 1)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-x b") 'helm-mini))
+
 
 (global-set-key "\C-x\C-m" 'helm-M-x)
 (global-set-key "\C-c\C-m" 'helm-M-x)
