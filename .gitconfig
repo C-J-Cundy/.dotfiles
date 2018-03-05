@@ -1,0 +1,7 @@
+[user]                                                                
+        name = Chris Cundy                                            
+        email = chris.j.cundy@gmail.com                               
+[push]                                                                
+        default = simple                                              
+[core]                                                                
+        editor = emacs
